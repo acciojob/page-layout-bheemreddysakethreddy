@@ -3,9 +3,9 @@ import React, { Children } from "react";
 const PageLayout = ({ header, footer , children}) => {
   return (
     <div>
-      <header>{header}</header>
-      <main>{children}</main>
-      <footer>{footer}</footer>
+      <h1>{header}</h1>
+      <p>{children}</p>
+      <p>{footer}</p>
     </div>
   );
 };
