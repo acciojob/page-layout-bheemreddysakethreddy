@@ -7,9 +7,9 @@ const App = () => {
     <div>
       <PageLayout
         header={"Welcome to my website"}
-        footer={"c 2023 My Website. All rights reserverd"}
+        footer={"© 2023 My Website. All rights reserved."}
       >
-        <p>This is the content on my website</p>
+        <p>This is the content of my website.</p>
       </PageLayout>
     </div>
   );
